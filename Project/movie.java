@@ -67,11 +67,11 @@ public abstract class movie implements Comparable<movie> {
 		return this.title.compareToIgnoreCase(title);
 	}
 	public void addRatting(byte í, String review) {
-		// TODO Auto-generated method stub
+	
 		
 	}
 	public void addRatting(int í, String review) {
-		// TODO Auto-generated method stub
+
 		
 	}
 	

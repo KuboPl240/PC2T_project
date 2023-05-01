@@ -129,7 +129,6 @@ public class database {
 	public boolean fromSQLDatabase() {
 		SQLConnection connection = new SQLConnection();
 		connection.getDBConnection();
-		//connection.savePersonToSQL("Bob Gunton"); 
 		movies = connection.getMovies();
 		persons = connection.getPersons();
 		return true;

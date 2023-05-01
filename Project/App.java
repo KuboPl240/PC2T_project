@@ -8,15 +8,15 @@ import java.util.List;
 public class App {
 	private static void menu() {
 		System.out.println("====================================================================================\n"
-				 + "1. Zobraziť všetky filmy\n" //done
-				 + "2. Pridať film\n" //done
+				 + "1. Zobraziť všetky filmy\n"
+				 + "2. Pridať film\n" 
 				 + "3. Upraviť film\n"
-				 + "4. Zmazať film\n" //done
+				 + "4. Zmazať film\n" 
 				 + "5. Vyhladať film\n"
 				 + "6. Pridať hodnotenie na film\n"
-				 + "7. Zobraziť zoznam filmov herca/animátora\n" //done
-				 + "8. Zobraziť zoznam hercov/animátorov ktorý sa podielali na viac ako jednom filme\n" //done
-				 + "9. Uložiť film do súboru\n" //done
+				 + "7. Zobraziť zoznam filmov herca/animátora\n" 
+				 + "8. Zobraziť zoznam hercov/animátorov ktorý sa podielali na viac ako jednom filme\n" 
+				 + "9. Uložiť film do súboru\n" 
 				 + "10. Načítať film zo súboru\n" 
 				 + "11. Ukoncenie aplikacie\n");
 	}

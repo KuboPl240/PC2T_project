@@ -8,7 +8,7 @@ public class SQLConnection {
 	List<person> persons= new ArrayList<>();
     private Connection connection;
 
-    public boolean getDBConnection() { // connect to DB
+    public boolean getDBConnection() { 
         if (connection == null) ;
         {
             try {
@@ -229,7 +229,6 @@ public class SQLConnection {
                 		person.addMovie(movie);
                 	}
                 }
-				
             });
             }
             }
